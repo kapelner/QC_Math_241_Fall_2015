@@ -6,6 +6,8 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as YouTube videos below and my lecture notes are also scanned in as PDF files. To ask questions, you can comment on the videos and I will answer in another comment or in class. Make sure to include the timestamp of your comment.
 
+* [Lecture 1](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec01.pdf?raw=true) (thanks to Gabriel Campos)
+
 ## Homeworks
 
 <!--
@@ -45,4 +47,4 @@ Location: Delaney 112 -->
 
 ## Grades and Class Standing
 
-You can check your grades in realtime at [http://qcgrades.com](http://qcgrades.com). You type in your CUNYFirst ID# and a password. To receive a password, you have to email me (I cannot post them due to privacy concerns). Do not share your password with anyone.
+You can check your grades in realtime at [http://qc.gradesly.com](http://qc.gradesly.com). You type in your CUNYFirst ID# and a password. To receive a password, you have to email me (I cannot post them due to privacy concerns). Do not share your password with anyone.
