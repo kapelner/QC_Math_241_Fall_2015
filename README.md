@@ -6,6 +6,7 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as YouTube videos below and my lecture notes are also scanned in as PDF files. To ask questions, you can comment on the videos and I will answer in another comment or in class. Make sure to include the timestamp of your comment.
 
+* [Lecture 2](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02.pdf?raw=true) (thanks to Gabriel Campos)
 * [Lecture 1](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec01.pdf?raw=true) (thanks to Gabriel Campos)
 
 ## Homeworks
