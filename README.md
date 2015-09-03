@@ -38,14 +38,8 @@ My lectures can be listened to as YouTube videos below and my lecture notes are 
 
 I *want* you to come to office hours! My office hours are:
 
-<!--
-Time: Tues 10:35-11:35AM, Thurs 10:35-11:35AM
-Location: Kissena Hall I Room 325 (64-19 Kissena Blvd betw 64Ave and 65Ave)
-
-And Meylin (the TA) has office hours
-
-Time: Mon 12-1PM
-Location: Delaney 112 -->
+Time: Tues / Thurs 12:40-1:30PM
+Location: Kiely Hall 604 (my office)
 
 ## Grades and Class Standing
 
