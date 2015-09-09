@@ -8,7 +8,7 @@ My lectures can be listened to as soundcloud tracks (coming soon) and lecture no
 
 <!--To ask questions, you can comment on the videos and I will answer in another comment or in class. Make sure to include the timestamp of your comment.-->
 
-* Lecture 4 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04is.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf?raw=true)
+* Lecture 4 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04si.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf?raw=true)
 * Lecture 3 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03qn.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03kap.pdf?raw=true)
 * Lecture 2 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02qn.pdf?raw=true) [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02gc.pdf?raw=true)   [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02kap.pdf?raw=true)
 * Lecture 1 [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec01gc.pdf?raw=true)  [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec01kap.pdf?raw=true)
