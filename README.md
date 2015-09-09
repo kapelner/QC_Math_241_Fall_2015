@@ -4,7 +4,9 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 ## Lectures
 
-My lectures can be listened to as soundcloud tracks (coming soon) and lecture notes are also scanned in as PDF files contributed by students and myself. <!--To ask questions, you can comment on the videos and I will answer in another comment or in class. Make sure to include the timestamp of your comment.-->
+My lectures can be listened to as soundcloud tracks (coming soon) and lecture notes are also scanned in as PDF files contributed by students and myself. 
+
+<!--To ask questions, you can comment on the videos and I will answer in another comment or in class. Make sure to include the timestamp of your comment.-->
 
 * Lecture 3 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03is.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf?raw=true)
 * Lecture 3 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03qn.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03kap.pdf?raw=true)
