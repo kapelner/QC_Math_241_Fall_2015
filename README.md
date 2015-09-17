@@ -4,10 +4,11 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 ## Lectures
 
-My lectures can be listened to as soundcloud tracks (coming soon) and lecture notes are also scanned in as PDF files contributed by students and myself. 
+My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. 
 
 <!--To ask questions, you can comment on the videos and I will answer in another comment or in class. Make sure to include the timestamp of your comment.-->
 
+* Lecture 5 [(audio)](https://clyp.it/g3ragjsg) [(Prof)]((https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05kap.pdf?raw=true)
 * Lecture 4 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04si.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf?raw=true)
 * Lecture 3 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03qn.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03kap.pdf?raw=true)
 * Lecture 2 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02qn.pdf?raw=true) [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02gc.pdf?raw=true)   [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02kap.pdf?raw=true)
