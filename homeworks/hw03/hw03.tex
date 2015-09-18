@@ -1,0 +1,144 @@
+\documentclass[12pt]{article}
+
+\include{preamble}
+
+\newtoggle{spacingmode}
+\toggletrue{spacingmode}  %STUDENTS: DELETE or COMMENT this line
+
+\newtoggle{professormode}
+\toggletrue{professormode} %STUDENTS: DELETE or COMMENT this line
+
+\newcommand{\spc}[1]{\iftoggle{spacingmode}{\\ \vspace{#1cm}}{\\ \vspace{-0.3cm}}}
+
+
+
+\title{MATH 241 Fall 2015 Homework \#3}
+
+\author{Professor Adam Kapelner} %STUDENTS: write your name here
+
+\iftoggle{professormode}{
+\date{Due 3:15PM in my office, Friday, September 25, 2015 \\ \vspace{0.5cm} \small (this document last updated \today ~at \currenttime)}
+}
+
+\renewcommand{\abstractname}{Instructions and Philosophy}
+
+
+
+
+\begin{document}
+\maketitle
+
+\iftoggle{professormode}{
+\begin{abstract}
+The path to success in this class is to do many problems. Unlike other courses, exclusively doing reading(s) will not help. Coming to lecture is akin to watching workout videos; thinking about and solving problems on your own is the actual ``working out.''  Feel free to \qu{work out} with others; \textbf{I want you to work on this in groups.}
+
+Reading is still \textit{required}. For this homework set, read the section about axioms of probability in Chapter 2 in Ross. Chapter references are from the 7th edition.
+
+The problems below are color coded: \ingreen{green} problems are considered \textit{easy} and marked \qu{[easy]}; \inorange{yellow} problems are considered \textit{intermediate} and marked \qu{[harder]}, \inred{red} problems are considered \textit{difficult} and marked \qu{[difficult]} and \inpurple{purple} problems are extra credit. The \textit{easy} problems are intended to be ``giveaways'' if you went to class. Do as much as you can of the others; I expect you to at least attempt the \textit{difficult} problems.
+
+This homework is worth 100 points but the point distribution will not be determined until after the due date. See syllabus for the policy on late homework.
+
+Up to 15 points are given as a bonus if the homework is typed using \LaTeX. Links to instaling \LaTeX~and program for compiling \LaTeX~is found on the syllabus. You are encouraged to use \url{overleaf.com}. If you are handing in homework this way, read the comments in the code; there are two lines to comment out and you should replace my name with yours and write your section. The easiest way to use overleaf is to copy the raw text from hwxx.tex and preamble.tex into two new overleaf tex files with the same name (thanks to Anastassiya and Jasmine of Section A for figuring this out). If you are asked to make drawings, you can take a picture of your handwritten drawing and insert them as figures or leave space using the \qu{$\backslash$vspace} command and draw them in after printing or attach them stapled.
+
+The document is available with spaces for you to write your answers. If not using \LaTeX, print this document and write in your answers. I do not accept homeworks not on this printout. Keep this first page printed for your records. Write your name and section below (A, B or C). 10 points off is you leave your section blank (or if it's wrong).
+
+\end{abstract}
+
+\thispagestyle{empty}
+\vspace{1cm}
+NAME: \line(1,0){240} ~~SECTION (A, B or C): \line(1,0){35} \\
+\clearpage
+}
+
+\problem{A little bit of a philosophy.
+
+\iftoggle{professormode}{
+\begin{figure}[htp]
+\centering
+\includegraphics[width=4in]{plato.jpg}
+\end{figure}
+\FloatBarrier
+}}
+
+\begin{enumerate}
+\easysubproblem{What are some problems with the long run frequency definition of probability?} \spc{3}
+
+\easysubproblem{How did Chevalier de Mere in 1654 know that the \\ $\prob{\text{one or more double sixes in 24 rolls of two dice}} < \half$?} \spc{2}
+
+\easysubproblem{What are some problems with the propensity definition of probability?} \spc{2}
+
+\easysubproblem{What idea(s) inspired Karl Popper to invent the propensity definition?} \spc{2}
+
+\easysubproblem{What is the main problem with the subjective definition of probability?} \spc{2}
+
+\easysubproblem{What is the difference between probabilities that are objective and probabilities that are epistemic?} \spc{3}
+
+\easysubproblem{Why would you call an objective probability \qu{random} but not an epistemic probability? Explain.} \spc{3}
+
+\easysubproblem{If all information was known, would there still be epistemic probabilities? Yes/no is fine.} \spc{1}
+
+\easysubproblem{According to Laplace (and his interpretation of Newton), if all information was known about physical systems including all laws and all initial conditions, would there be randomness? Yes/no and discuss.} \spc{2}
+
+\hardsubproblem{According to Laplace, what is randomness? I've uploaded LaPlace's quote in lecture 5 on the course homepage. You can answer this in a few words.} \spc{1}
+
+\hardsubproblem{Knowing what we known in the 21st century, if all information was known about physical systems including all laws and all initial conditions, would there be randomness? If so, what theory has demonstrated evidence for this?} \spc{2}
+
+\hardsubproblem{What upset Einstein in 1926 to say \qu{God does not play dice with the universe?}} \spc{3}
+
+\hardsubproblem{What is the prevailing theory about why probability wasn't formalized using mathematics prior to the 1600's?} \spc{2}
+
+\extracreditsubproblem{Why is the logical definition of probability \qu{silly} (in my words)?} \spc{4}
+
+\end{enumerate}
+
+\problem{We will get our feet wet with basic \qu{axioms} and theorems. Assume all capital letters are sets. If the problem asks you to prove a fact, you may only use your knowledge of set theory and the definition of $\prob{\cdot}$ given in the book / lecture. Most of the answers are in the book or in my lecture notes. Try to do them yourself and only use the book if you are having trouble.
+
+
+\iftoggle{professormode}{
+\begin{figure}[htp]
+\centering
+\includegraphics[width=4in]{axioms.png}
+\end{figure}
+\FloatBarrier
+}}
+
+
+\begin{enumerate}
+\easysubproblem{List (1)  all assumptions prior to and (2) the three conditions that make $\prob{\cdot}$, the set function that returns a probability. These latter three conditions are also known as the \qu{axioms of probability.}} \spc{3.5}
+
+\extracreditsubproblem{Explain why the three conditions are not technically axioms.} \spc{2}
+
+\easysubproblem{Prove that if $A_1$ and $A_2$ are disjoint (mutually exclusive), $\prob{A_1 \cup A_2} = \prob{A_1} + \prob{A_2}$.} \spc{1.5}
+
+\easysubproblem{Prove that $\prob{\varnothing} = 0$.} \spc{2.5}
+
+\intermediatesubproblem{Prove that $\prob{A} \leq 1$.} \spc{5}
+
+\hardsubproblem{Assuming the previous theorem that $\prob{A} \leq 1$, prove that $\prob{A} \in \zeroonecl$.} \spc{2}
+
+\hardsubproblem{Prove that if $A \subseteq B$ then $\prob{A} \leq \prob{B}$.} \spc{3.5}
+
+\hardsubproblem{Prove the law of inclusion-exclusion for two arbitrary sets: $\prob{A \cup B} = \prob{A} + \prob{B} - \prob{A, B}$ (in the notes).} \spc{5}
+
+\intermediatesubproblem{State the general law of inclusion-exclusion for arbitrary $n$ i.e. $\prob{\cup_{i=1}^n A_i} = $ ?} \spc{2}
+
+\extracreditsubproblem{On a separate sheet of paper, prove the general law of inclusion-exclusion.}
+
+\hardsubproblem{Some authors for condition (a), which is $\prob{A} \geq 0 ~\forall A$, use instead the condition $\prob{A} \in \zeroonecl$. Why is this addition detail unncessary?} \spc{3}
+
+\hardsubproblem{Prove that if $A = \braces{\omega_1, \omega_2, \ldots}$ possibly infinite in cardinality, then
+
+\beqn
+\prob{A} = \sum_{i=1}^\infty \prob{\braces{\omega_i}}
+\eeqn
+
+Hint: look at the proof of why $\prob{A} = \frac{|A|}{|\Omega|}$ in the case of equally likely outcomes.} \spc{4}
+
+\extracreditsubproblem{Prove what I bungled in class: if $A$ is non-empty then $\prob{A} > 0$.} \spc{4}
+
+\extracreditsubproblem{Describe a sequence of sets $A_1, A_2, \ldots$ which are all non-empty where $\sum_{i=1}^\infty \prob{A_i} = 1$. \qu{Describe} means to explicitly state the elements in each of the sets.} \spc{4}
+
+
+\end{enumerate}
+
+\end{document}
