@@ -484,7 +484,7 @@
 \newcommand{\expnegrtau}{\exp{-r\tau}}
 
 %%% problem typesetting
-\definecolor{darkgrey}{gray}{0.4}
+\definecolor{darkgrey}{rgb}{0.10,0.10,0.9}
 
 \newcommand{\problem}[1]{\noindent \colorbox{black}{{\color{yellow} \large{\textsf{\textbf{Problem \arabic{probnum}}}}~}} \addtocounter{probnum}{1} \vspace{0.2cm} \\ \iftoggle{professormode}{}{\color{darkgrey}} #1}
 
@@ -492,6 +492,9 @@
 \newcommand{\intermediatesubproblem}[1]{\inorange{\item} \iftoggle{professormode}{}{\color{darkgrey}} [harder] #1 \color{black} }
 \newcommand{\hardsubproblem}[1]{\inred{\item} \iftoggle{professormode}{}{\color{darkgrey}} [difficult] #1 \color{black} }
 \newcommand{\extracreditsubproblem}[1]{\inpurple{\item} \iftoggle{professormode}{}{\color{darkgrey}} [E.C.] #1 \color{black} }
+
+
+\newcommand{\spc}[1]{\iftoggle{professormode}{\\ \vspace{#1cm}}{\\ \vspace{-0.3cm}}}
 
 \makeatletter
 \newalphalph{\alphmult}[mult]{\@alph}{26}
