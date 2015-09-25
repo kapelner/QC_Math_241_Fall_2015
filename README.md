@@ -6,12 +6,12 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. Clyp has an iphone and android app as well.
 
-* Lecture 7 [(audio)](https://clyp.it/lwujc2kg) 
-* Lecture 6 [(audio)](https://clyp.it/ikhse5o0) [(Kelvin Chang)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kc.pdf?raw=true)
-* Lecture 5 [(audio)](https://clyp.it/g3ragjsg) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05kap.pdf?raw=true)
-* Lecture 4 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04si.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf?raw=true)
-* Lecture 3 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03qn.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03kap.pdf?raw=true)
-* Lecture 2 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02qn.pdf?raw=true) [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02gc.pdf?raw=true)   [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02kap.pdf?raw=true)
+* Lecture 7 [(audio)](https://clyp.it/lwujc2kg) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07kap.pdf)
+* Lecture 6 [(audio)](https://clyp.it/ikhse5o0) [(Kelvin Chang)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kc.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kap.pdf)
+* Lecture 5 [(audio)](https://clyp.it/g3ragjsg) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05kap.pdf)
+* Lecture 4 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04si.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf)
+* Lecture 3 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03qn.pdf?raw=true) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03kap.pdf)
+* Lecture 2 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02qn.pdf?raw=true) [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02gc.pdf?raw=true)   [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02kap.pdf)
 * Lecture 1 [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec01gc.pdf?raw=true)  [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec01kap.pdf?raw=true)
 
 ## Homeworks
