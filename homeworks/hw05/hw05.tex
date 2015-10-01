@@ -1,0 +1,223 @@
+\documentclass[12pt]{article}
+
+\include{preamble}
+
+\newtoggle{professormode}
+\toggletrue{professormode} %STUDENTS: DELETE or COMMENT this line
+
+
+
+\title{MATH 241 Fall 2015 Homework \#5}
+
+\author{Professor Adam Kapelner} %STUDENTS: write your name here
+
+\iftoggle{professormode}{
+\date{Due 5PM in my mail slot, Thursday, October 15, 2015 \\ \vspace{0.5cm} \small (this document last updated \today ~at \currenttime)}
+}
+
+\renewcommand{\abstractname}{Instructions and Philosophy}
+
+
+
+
+\begin{document}
+\maketitle
+
+\iftoggle{professormode}{
+\begin{abstract}
+The path to success in this class is to do many problems. Unlike other courses, exclusively doing reading(s) will not help. Coming to lecture is akin to watching workout videos; thinking about and solving problems on your own is the actual ``working out.''  Feel free to \qu{work out} with others; \textbf{I want you to work on this in groups.}
+
+Reading is still \textit{required}. For this homework set, read the section about conditional probability and in/dependence in Chapter 3 in Ross. Chapter references are from the 7th edition.
+
+The problems below are color coded: \ingreen{green} problems are considered \textit{easy} and marked \qu{[easy]}; \inorange{yellow} problems are considered \textit{intermediate} and marked \qu{[harder]}, \inred{red} problems are considered \textit{difficult} and marked \qu{[difficult]} and \inpurple{purple} problems are extra credit. The \textit{easy} problems are intended to be ``giveaways'' if you went to class. Do as much as you can of the others; I expect you to at least attempt the \textit{difficult} problems.
+
+This homework is worth 100 points but the point distribution will not be determined until after the due date. See syllabus for the policy on late homework.
+
+Up to 15 points are given as a bonus if the homework is typed using \LaTeX. Links to instaling \LaTeX~and program for compiling \LaTeX~is found on the syllabus. You are encouraged to use \url{overleaf.com}. If you are handing in homework this way, read the comments in the code; there are two lines to comment out and you should replace my name with yours and write your section. The easiest way to use overleaf is to copy the raw text from hwxx.tex and preamble.tex into two new overleaf tex files with the same name (thanks to Anastassiya and Jasmine of Section A for figuring this out). If you are asked to make drawings, you can take a picture of your handwritten drawing and insert them as figures or leave space using the \qu{$\backslash$vspace} command and draw them in after printing or attach them stapled.
+
+The document is available with spaces for you to write your answers. If not using \LaTeX, print this document and write in your answers. I do not accept homeworks not on this printout. Keep this first page printed for your records. Write your name and section below (A, B or C). 10 points off if your section is blank or wrong.
+
+\end{abstract}
+
+\thispagestyle{empty}
+\vspace{1cm}
+NAME: \line(1,0){240} ~~SECTION (A, B or C): \line(1,0){35} \\
+\clearpage
+}
+
+\iftoggle{professormode}{
+\paragraph{Probability} The last hurrah... \\ \\
+}
+
+\problem{You are playing billiards. There are 15 balls on the table (save the cue ball which we are ignoring) numered 1, 2, \ldots, 15 and 6 pockets the balls can go into (4 corner pockets and two side pockets, displayed below). The goal of the game you are playing is to get all the 15 balls into any of the pockets. 
+
+\iftoggle{professormode}{
+\begin{figure}[htp]
+\centering
+\includegraphics[width=6in]{billiards.png}
+\end{figure}
+\FloatBarrier
+}}
+
+
+\begin{enumerate}
+
+\easysubproblem{How many ways is there to sink all balls if you assume at least one ball goes into each hole? Assume balls are indistinct.} \spc{3}
+
+\easysubproblem{How many ways is there to sink all balls if you do not assume at least one ball goes into each hole (i.e. pockets can be empty now)? Again, assume balls are indistinct.} \spc{3}
+
+\hardsubproblem{How many ways to sink all balls if pockets can be empty and the balls are distinct?} \spc{3}
+
+\extracreditsubproblem{How many ways to sink all balls if pockets can be empty with the restriction that each pocket must have at least one odd ball and at least one even ball?} \spc{6}
+
+\extracreditsubproblem{How many ways to sink all balls if pockets can be empty and both balls and holes are indistinct?} \spc{6}
+
+\easysubproblem{Imagine you start the game with only 8 balls --- the one ball, the two ball, \ldots, the eight ball. Imagine further that the 8 holes were numbered 1, 2, \ldots, 8. What is the approximate probability that if only one ball goes in each hole, none of the numbered balls and numbered holes match? That is, no ball goes in its matched number pocket. Hint: we did this in class with hats.} \spc{4}
+
+
+\hardsubproblem{Find the probability of the previous question exactly.} \spc{3}
+
+\end{enumerate}
+
+\problem{You play a game with your friend. You both roll a die. Whoever rolls higher wins. If you roll the same number, you tie.
+
+\iftoggle{professormode}{
+\begin{figure}[htp]
+\centering
+\includegraphics[width=1in]{twodice.jpg}
+\end{figure}
+\FloatBarrier
+}}
+
+
+\begin{enumerate}
+
+\easysubproblem{What is the probability you win? Draw a tree to figure this out. The first branch is the numerical value of your roll, the second branch is the numerical value of your friend's roll. Then you mark on the right whether you Win (W), Tie (T) or Lose (L).}  \spc{12}
+
+\easysubproblem{What is the probability you tie? Look at the tree from (a).} \spc{2}
+
+
+\intermediatesubproblem{Imagine upon ties, the game continues: you both roll again. You play until someone has a higher roll than the other. What is the probability you win this game? Use the algebraic trick we talked about in class.}  \spc{6}
+
+\hardsubproblem{Consider the same game as described above in (b) with one rule change: your friend automatically wins if you both tie on rolling a 1 and a 1. What is the probability you win?} \spc{8}
+
+\end{enumerate}
+
+
+\iftoggle{professormode}{
+\paragraph{Random Variables} We now begin question about the second unit of this class: r.v.'s. Anything past this point is NOT covered on Midterm 1. \\ \\
+}
+
+
+\problem{In class we spoke about how random variables map outcomes from the sample space to a number \ie $X: \Omega \rightarrow \reals$. That is they are set functions, just like the probability function which is $\mathbb{P}: 2^\Omega \rightarrow \zeroonecl$. We will be investigating this concept here.
+
+\iftoggle{professormode}{
+\begin{figure}[htp]
+\centering
+\includegraphics[width=2.5in]{rv.jpg}
+\end{figure}
+\FloatBarrier
+}}
+
+\begin{enumerate}
+\easysubproblem{Here is a way to produce $X \sim \bernoulli{\half}$ using the $\Omega$ from a roll of a die. Map outcomes 1,2,3 to 0 and outcomes 4,5,6 to 1. This works because 
+
+\beqn
+&&\prob{X=0} = \prob{\braces{\omega : X(\omega) = 0}} = \prob{\braces{1, 2, 3}} = 1/2 ~~\text{and} \\ 
+&&\prob{X=1} = \prob{\braces{\omega : X(\omega) = 1}} = \prob{\braces{4, 5, 6}} = 1/2.
+\eeqn
+
+Describe three other scenarios or devices that produce their own $\Omega$'s that also result in $X \sim \bernoulli{\half}.$ Be creative (i.e. not boring).} \spc{5}
+
+\intermediatesubproblem{We talked about in class how the sample space no longer needs to be considered once the random variable is described. Why? Use your answer to (a) to inspire this answer. Write it \textit{in English} below.} \spc{3}
+
+\hardsubproblem{Back to philosophy... Let's say $X$ models the price difference that IBM stock moves in one day of trading. For instance, if the stock closed yesterday at \$56.24 and today it closed at \$57.24, the random variable would be \$1 for today. According to our definition of a random variable, there is a sample space with outcomes being drawn ($\omega \in \Omega$) that is \qu{controlling} the value of $X$. Describe it the best you can \textit{in English}. There are no right or wrong answers here, but your answer must be coherent and demonstrate you understand the question.} \spc{6}
+
+\end{enumerate}
+
+
+\problem{We will now study probability mass functions (PMF's) denoted as $p(x)$ and cumulative distribution functions (CDF's) denoted as $F(X)$ and review the r.v.'s we did in class.}
+
+\begin{enumerate}
+
+\easysubproblem{Draw the PMF for $X \sim \bernoulli{p}$.}  \spc{4}
+
+\easysubproblem{Draw the CDF for $X \sim \uniformdiscrete{1,3,4,9}$.}  \spc{6}
+
+\intermediatesubproblem{Using the r.v. from the previous question, what is $\prob{X \in (3,9)}$? I am trying to trick you here.} \spc{3}
+
+\extracreditsubproblem{In class we defined the Bernoulli r.v. as:
+
+\beqn
+X \sim \begin{cases}
+1 \withprob p \\
+0 \withprob 1-p
+\end{cases}
+\eeqn
+
+and put its PMF on the board. Write $p(x)$ for $X \sim \bernoulli{p}$ that is only valid for not only all values in the $\support{X}$ but all values in $\reals$. Use the indicator function and set theory notation.} \spc{3}
+
+\hardsubproblem{What is the parameter space of $X$ where $X \sim \bernoulli{p}$ and why?}  \spc{1.5}
+
+
+\hardsubproblem{Sometimes knowing the $\Omega$ matters a little bit. Let's say $X_1 \sim \bernoulli{\half}$ is generated from one coin and $X_2 \sim \bernoulli{\half}$ is generated from another coin independently tossed. Create a new r.v. $T = X_1 + X_2$. Describe its PMF using the $\sim$ notation like in the previous problem. Thus write \qu{$T \sim$} something.} \spc{8}
+
+\hardsubproblem{Consider the PMF we discussed for $X \sim \bernoulli{\half}$. Does $\myint{x}{}{}{p(x)} = F(x) + C$ where the constant $C \in \reals$? Explain. Think carefully about what integration really means.} \spc{5}
+
+\hardsubproblem{How about the opposite? Consider the CDF we discussed for $X \sim \bernoulli{\half}$. Does $\text{d} / \text{d}x[F(x)] = p(x)$? Explain. Think carefully about what differentiation really means.} \spc{3}
+
+
+\end{enumerate}
+
+\iftoggle{professormode}{
+\paragraph{Hypergeometric Distribution} This is a very interesting random variable and we will cover it thoroughly between this homework and the next one.\\ \\
+} 
+
+\problem{The hypergeometric is sampling \qu{without replacement.} Imagine you have this bag of marbles with 37 marbles and 17 of them are black. We will define a \qu{success} as drawing a black marble.
+
+\iftoggle{professormode}{
+\begin{figure}[htp]
+\centering
+\includegraphics[width=2in]{marble.jpg}
+\end{figure}
+\FloatBarrier
+}}
+
+\begin{enumerate}
+
+\easysubproblem{Let's say you draw one marble. Call this r.v. $X$. Is it hypergeometric?} \spc{0.2}
+
+\easysubproblem{The hypergeometric distribution has three parameters. What are the parameters for $X$?} \spc{2}
+
+\easysubproblem{Write, but do not draw, the PDF, $p(x)$ for the r.v. $X$ where $x$ is the number of successes.} \spc{2}
+
+\easysubproblem{What is the support of this r.v.?} \spc{2}
+
+\intermediatesubproblem{There is another variable we learned about in class with this same support. Show that $X$ is distributed as this type of r.v. and find its parameter(s).} \spc{2}
+
+\easysubproblem{Now imagine you draw 4 marbles without replacement. Call this r.v. $X$ (and forget about the previous r.v. $X$ from this question, parts a-e). How is $X$ distributed? Use the notation in class and find its parameters.} \spc{2}
+
+\easysubproblem{What is the support of $X$?} \spc{2}
+
+\easysubproblem{Write, but do not draw, the PMF of $X$.} \spc{3}
+
+\easysubproblem{Draw the PMF of $X$.} \spc{6}
+
+\easysubproblem{Draw the CDF of $X$.} \spc{6}
+
+\easysubproblem{What is the probability of getting 4 successes in a row? Use the PMF.} \spc{3}
+
+\easysubproblem{What is the probability of getting 4 successes in a row? Use conditional probability. This should yield the same answer.} \spc{3}
+
+\easysubproblem{Now imagine you draw 27 marbles without replacement. Call this r.v. $X$ (and forget about the previous r.v. $X$). How is $X$ distributed? Use the notation in class and find its parameters.} \spc{2}
+
+\easysubproblem{What is the support of $X$? Why is $0 \notin \support{X}$?} \spc{4}
+
+\easysubproblem{Write, but do not draw, the PMF of $X$.} \spc{3}
+
+\hardsubproblem{Find the mode of this distribution. \qu{Mode} is defined as the most likely outcome result.} \spc{4}
+
+\end{enumerate}
+
+
+\end{document}
