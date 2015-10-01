@@ -6,6 +6,7 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. Clyp has an iphone and android app as well.
 
+* Lecture 8 [(audio)](https://clyp.it/wwcvaoa0) 
 * Lecture 7 [(audio)](https://clyp.it/lwujc2kg) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07kap.pdf)
 * Lecture 6 [(audio)](https://clyp.it/ikhse5o0) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06qn.pdf) [(Kelvin Chang)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kc.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kap.pdf)
 * Lecture 5 [(audio)](https://clyp.it/g3ragjsg) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05kap.pdf)
