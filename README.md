@@ -35,16 +35,23 @@ My lectures can be listened to as clyp.it tracks and lecture notes are also scan
 ## Exams
 
 * Midterm I October 8 (in class). 
-** [(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm1/midterm1.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm1/midterm1_solutions.pdf?raw=true) 
-** [(practice exam 2)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm1/midterm1.pdf?raw=true) [(practice exam 2 solutions)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm1/midterm1_solutions.pdf?raw=true)
+
+[(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm1/midterm1.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm1/midterm1_solutions.pdf?raw=true) 
+
+[(practice exam 2)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm1/midterm1.pdf?raw=true) [(practice exam 2 solutions)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm1/midterm1_solutions.pdf?raw=true)
 
 * Midterm II November 12 (in class). 
-** [(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm2/midterm2.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm2/midterm2_solutions.pdf?raw=true) 
-** [(practice exam 2)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm2/midterm2.pdf?raw=true) [(practice exam 2 solutions)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm2/midterm2_solutions.pdf?raw=true) Also: Midterm I practice exam problem 6.
+
+[(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm2/midterm2.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm2/midterm2_solutions.pdf?raw=true) 
+
+[(practice exam 2)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm2/midterm2.pdf?raw=true) [(practice exam 2 solutions)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/midterm2/midterm2_solutions.pdf?raw=true) Also: Midterm I practice exam problem 6.
 
 * Final December 17 and 22  
-** [(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/final/final.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/final/final_solutions.pdf?raw=true) [(practice 2 exam)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/final/final.pdf?raw=true) 
-** [(practice exam 2 solutions)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/final/final_solutions.pdf?raw=true)
+
+[(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/final/final.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/final/final_solutions.pdf?raw=true) 
+
+[(practice 2 exam)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/final/final.pdf?raw=true) 
+[(practice exam 2 solutions)](https://github.com/kapelner/QC_Math_241_Fall_2014_15/blob/master/exams/final/final_solutions.pdf?raw=true)
 
 ## Office Hours
 
