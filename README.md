@@ -6,8 +6,8 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. Clyp has an iphone and android app as well.
 
-* Lecture 11 [(audio)](https://clyp.it/0b1wp4to) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11ks.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11kap.pdf) 
-* Lecture 10 [(audio)](https://clyp.it/tye43ctr) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10ks.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10kap.pdf) 
+* Lecture 11 [(audio)](https://clyp.it/0b1wp4to) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11ks.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11kap.pdf) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11qn.pdf) 
+* Lecture 10 [(audio)](https://clyp.it/tye43ctr) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10ks.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10kap.pdf) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10qn.pdf) 
 * Lecture 9 [(audio)](https://clyp.it/ngnr5glv) [(Lioneta Osario)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec09lo.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec09kap.pdf) 
 * Lecture 8 [(audio)](https://clyp.it/wwcvaoa0) [(Lioneta Osario)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec08lo.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec08kap.pdf)
 * Lecture 7 [(audio)](https://clyp.it/lwujc2kg) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07kap.pdf)
@@ -25,8 +25,8 @@ My lectures can be listened to as clyp.it tracks and lecture notes are also scan
 * [Homework 10](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw10/hw10.pdf?raw=true) (due 5/05/15)
 * [Homework 9](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw09/hw09.pdf?raw=true) (due 4/28/15)
 * [Homework 8](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw08/hw08.pdf?raw=true) (due 4/14/15)
-* [Homework 7](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw07/hw07.pdf?raw=true) (due 4/01/15)
-* [Homework 6](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw06/hw06.pdf?raw=true) (due 3/25/15)-->
+* [Homework 7](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw07/hw07.pdf?raw=true) (due 4/01/15)-->
+* [Homework 6](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw06/hw06.pdf?raw=true) (due 10/23/15)
 * [Homework 5](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw05/hw05.pdf?raw=true) (due 10/15/15)
 * [Homework 4](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw04/hw04.pdf?raw=true) (due 10/02/15)
 * [Homework 3](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw03/hw03.pdf?raw=true) (due 9/25/15)
