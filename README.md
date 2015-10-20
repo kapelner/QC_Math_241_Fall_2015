@@ -6,6 +6,7 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. Clyp has an iphone and android app as well.
 
+* Lecture 12 [(audio)](https://clyp.it/nbz0vkwy) 
 * Lecture 11 [(audio)](https://clyp.it/0b1wp4to) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11ks.pdf) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11kap.pdf)
 * Lecture 10 [(audio)](https://clyp.it/tye43ctr) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10ks.pdf) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10kap.pdf) 
 * Lecture 9 [(audio)](https://clyp.it/ngnr5glv) [(Lioneta Osario)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec09lo.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec09kap.pdf) 
