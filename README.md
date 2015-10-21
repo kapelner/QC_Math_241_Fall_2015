@@ -6,14 +6,14 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. Clyp has an iphone and android app as well.
 
-* Lecture 12 [(audio)](https://clyp.it/nbz0vkwy) 
+* Lecture 12 [(audio)](https://clyp.it/nbz0vkwy) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec12ks.pdf) 
 * Lecture 11 [(audio)](https://clyp.it/0b1wp4to) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11ks.pdf) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec11kap.pdf)
 * Lecture 10 [(audio)](https://clyp.it/tye43ctr) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10ks.pdf) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec10kap.pdf) 
 * Lecture 9 [(audio)](https://clyp.it/ngnr5glv) [(Lioneta Osario)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec09lo.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec09kap.pdf) 
 * Lecture 8 [(audio)](https://clyp.it/wwcvaoa0) [(Lioneta Osario)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec08lo.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec08kap.pdf)
 * Lecture 7 [(audio)](https://clyp.it/lwujc2kg) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec07kap.pdf)
 * Lecture 6 [(audio)](https://clyp.it/ikhse5o0) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06qn.pdf) [(Kelvin Chang)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kc.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec06kap.pdf)
-* Lecture 5 [(audio)](https://clyp.it/g3ragjsg) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05kap.pdf)
+* Lecture 5 [(audio)](https://clyp.it/g3ragjsg) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05ks.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec05kap.pdf)
 * Lecture 4 [(Salma Ismail)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04si.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec04kap.pdf)
 * Lecture 3 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03qn.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec03kap.pdf)
 * Lecture 2 [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02qn.pdf) [(Gabriel Campos)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02gc.pdf)   [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec02kap.pdf)
