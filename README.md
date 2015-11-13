@@ -44,7 +44,7 @@ My lectures can be listened to as clyp.it tracks and lecture notes are also scan
 
 * Midterm I October 8 (in class). 
 
-[(exam)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm1/midterm1.pdf?raw=true) [(exam solutions)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm1/midterm1_solutions.pdf?raw=true) 
+[(exam)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm1/midterm1.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm1/midterm1_solutions.pdf) 
 
 [(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm1/midterm1.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm1/midterm1_solutions.pdf?raw=true) 
 
@@ -52,7 +52,7 @@ My lectures can be listened to as clyp.it tracks and lecture notes are also scan
 
 * Midterm II November 12 (in class). 
 
-[(exam)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm2/midterm2.pdf?raw=true) [(exam solutions)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm2/midterm2_solutions.pdf?raw=true) 
+[(exam)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm2/midterm2.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/exams/midterm2/midterm2_solutions.pdf) 
 
 [(practice exam 1)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm2/midterm2.pdf?raw=true) [(practice exam 1 solutions)](https://github.com/kapelner/QC_Math_241_Spring_2015/blob/master/exams/midterm2/midterm2_solutions.pdf?raw=true) 
 
