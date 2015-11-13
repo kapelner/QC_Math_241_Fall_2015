@@ -1,0 +1,152 @@
+\documentclass[12pt]{article}
+
+\usepackage{eurosym}
+\include{preamble}
+
+\title{Math 241 Fall 2015 \\ Midterm Examination Two}
+\author{Professor Adam Kapelner}
+
+\date{November 12, 2015}
+
+\begin{document}
+\maketitle
+
+\noindent Full Name \line(1,0){270} ~~~ Section (A, B or C)~ \line(1,0){30}
+
+\thispagestyle{empty}
+
+\section*{Code of Academic Integrity}
+
+\footnotesize
+Since the college is an academic community, its fundamental purpose is the pursuit of knowledge. Essential to the success of this educational mission is a commitment to the principles of academic integrity. Every member of the college community is responsible for upholding the highest standards of honesty at all times. Students, as members of the community, are also responsible for adhering to the principles and spirit of the following Code of Academic Integrity.
+
+Activities that have the effect or intention of interfering with education, pursuit of knowledge, or fair evaluation of a student's performance are prohibited. Examples of such activities include but are not limited to the following definitions:
+
+\paragraph{Cheating} Using or attempting to use unauthorized assistance, material, or study aids in examinations or other academic work or preventing, or attempting to prevent, another from using authorized assistance, material, or study aids. Example: using a cheat sheet in a quiz or exam, altering a graded exam and resubmitting it for a better grade, etc.
+\\
+
+\noindent I acknowledge and agree to uphold this Code of Academic Integrity. \\
+
+\begin{center}
+\line(1,0){250} ~~~ \line(1,0){100}\\
+~~~~~~~~~~~~~~~~~~~~~signature~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ date
+\end{center}
+
+\normalsize
+
+\section*{Instructions}
+
+This exam is seventy five minutes and closed-book. You are allowed one page (front and back) of a \qu{cheat sheet.} You may use a graphing calculator of your choice but \emph{no cell phones}. Please read the questions carefully. If the question reads \qu{compute,} this means the solution will be a number otherwise you can leave the answer in choose, permutation, factorial, summation or any other notation which could be resolved to a number with a computer. I advise you to skip problems marked \qu{[Extra Credit]} until you have finished the other questions on the exam, then loop back and plug in all the holes. I also advise you to use pencil. The exam is 100 points total plus extra credit. Partial credit will be granted for incomplete answers on most of the questions. \fbox{Box} in your final answers. Good luck!
+
+\pagebreak
+
+\problem We will be investigating insurance on tornado damage across America. Note that tornadoes are most likely to hit Texas, Kansas, Oklahamo, South Dakota and others and tornadoes are least likely to hit Vermont, Utah, New Hampshire and others (see \url{http://www.homefacts.com/tornadoes.html} for more information). 
+
+\begin{center}
+\includegraphics[width=3in]{tornado.jpg}
+\end{center}
+
+A large insurance company underwrites policies for tornado damage. This question uses mock data and mock assumptions. \\
+
+\benum
+
+\subquestionwithpoints{2} The nationwide average proportion for a house having a claim is 0.5\% per year. Create a random variable model $B$ for the number of claims for one house. Write \qu{$B \sim$ [something]} below. \spc{1} 
+
+\subquestionwithpoints{3} Assume each home is modeled by an $\iid$ random variable of the model you built in part (a). If there are 300,000 homes covered under tornado insurance, create a random variable model $X$ for the total number of claims per year. Write \qu{$X \sim$ [something]} below. \spc{1}
+
+\subquestionwithpoints{4} What is the probability that exactly 54,345 claims are filed in one year? No need to compute explicitly. \spc{4}
+
+\subquestionwithpoints{5} What is the probability that one or more claims are filed in a year? No summation is allowed in your answer. No need to compute explicitly. \spc{2}
+
+\subquestionwithpoints{3} Claims pay \$80,000. Create a r.v. $Y$ as a function of $X$ from part (b) to model the total amount the insurance company must pay per year.  \spc{2}
+
+\subquestionwithpoints{4} What is the expected amount of money the insurance company pays out in a year? Compute explicitly. Include the unit in your answer. \spc{2}
+
+\subquestionwithpoints{5} What is the standard error of the amount of money the insurance company pays out in a year? Compute explicitly. \spc{2}
+
+\subquestionwithpoints{8} Write two separate concerns or problems you have with using this $\iid$ assumption for r.v. $X$ for the 300,000 houses. \spc{0}
+
+1) \vspace{3cm}
+
+2) \vspace{3cm}
+
+\subquestionwithpoints{3} Given the concerns from part (h), we no longer believe the $\iid$ model. Now, what can you say about the probability calculations you made in parts (c) and (d)? Write \qu{correct} if the calculations in (c) and (d) are still correct or \qu{not correct} if no longer correct. \spc{1}
+
+
+\subquestionwithpoints{3} Given the concerns from part (h), we no longer believe the $\iid$ model. Now, what can you say about the expected value calculation you made in part (f)? Write \qu{correct} if the calculation in (f) is still correct or \qu{not correct} if no longer correct. \spc{1}
+
+
+\subquestionwithpoints{3} Given the concerns from part (h), we no longer believe the $\iid$ model. Now, what can you say about the standard error calculation you made in part (g)? Write \qu{correct} if the calculation in (g) is still correct or \qu{not correct} if no longer correct. \spc{1}
+
+\subquestionwithpoints{2} Tornadoes are relatively common across America. It is rare in an entire year that there are no tornadoes and hence no claims. Per day, there is about a 4\% chance of a tornado happening somewhere in America. Assume each new day is independent of the previous days. This question is no longer concerned with the number of houses or number of claims. Create a random variable model $T$ for the time it takes to see one tornado somewhere across America. Write \qu{$T \sim$ [something]} below. \spc{1}
+
+\subquestionwithpoints{5} What is the probability it takes exactly two weeks (i.e. 14 days) until you see one tornado? (The tornado occurs on the 14th day). Compute explicitly. \spc{2}
+
+\subquestionwithpoints{4} What is the expected number of days that pass before you see one tornado? Compute explicitly. \spc{2}
+
+\subquestionwithpoints{2} The first time there is ten tornadoes in a year (beginning January 1st), there is a company board meeting the night of that tenth tornado. Create a random variable $T$ for the time (number of days) it takes to have this board meeting. Write \qu{$T \sim$ [something]} below.  \spc{2}
+
+\subquestionwithpoints{5} What is the probability of having a board meeting in 90 days or less? No need to compute but your answer must be computable exactly (no approximations). \spc{4}
+
+\eenum
+
+
+\problem A library has 100,000 books of which 5,000 are academic, 10,000 are science fiction, 10,000 are romance novels and 75,000 are of other genres.
+
+\begin{center}
+\includegraphics[width=3in]{library.jpg}
+\end{center}
+
+\benum
+
+\subquestionwithpoints{3} If I randomly take 10 books off the shelves, build a random variable model $X$ for the number of science fiction books I get. Write \qu{$X \sim$ [something]} below. \spc{2}
+
+
+\subquestionwithpoints{4} What is the probability I get 3 science fiction books of the 10 I randomly select? No need to compute. \spc{2}
+
+
+\subquestionwithpoints{4} Approximate your answer to (b) by assuming the number of books in the libary is effectively infinite. No need to compute.\spc{2}
+
+
+\eenum
+
+\problem Some theoretical questions are below. The subparts are all independent unless otherwise indicated.\\
+
+\benum
+
+\subquestionwithpoints{5} Give an example of a brand-name r.v. $X$ where $\sigsq \notin \support{X}$. You must give the parameter values and demonstrate that its variance is not in the support. Make sure you write \qu{$X \sim$ [something]} below. \spc{4}
+
+\subquestionwithpoints{5} Give an example of a brand-name r.v. $X$ where $\sigsq \in \support{X}$. You must give the parameter values and demonstrate that its variance is in the support. Make sure you write \qu{$X \sim$ [something]} below. \spc{4}
+
+\subquestionwithpoints{4} Compute $\displaystyle \sum_{x=0}^\infty 0.9^x$ explicitly. \spc{2}
+
+\subquestionwithpoints{3} Define the concept of \qu{data} below in one English sentence. \spc{2}
+
+\subquestionwithpoints{4} The following numbers come from an $\iid$ data generating process: 
+
+\begin{verbatim}
+-0.93  0.24 -1.24  0.26 -0.20  1.32  0.24 
+-0.33 -0.10 -0.50  1.13  0.68  1.44 -0.59  
+ 0.22 -1.82  1.47 -1.22 -0.65 -1.37  0.81  
+ 0.84 -0.41 -0.11  0.67  1.15 -2.39 -0.45 
+-0.15 -1.15  0.87 -0.52 -3.37  0.69 -0.26  
+ 0.37 -1.01  0.46  1.37  0.47  1.22  1.89  
+ 0.12  1.69 -1.50 -1.42  0.24 -1.41  1.38
+\end{verbatim}
+
+of which the $\xbar = -0.03$. What is this $\xbar$ close to? One short English sentence only. \spc{1}
+
+
+\subquestionwithpoints{3} What theorem / law did you invoke to answer the previous question (part e)? \spc{1}
+
+\subquestionwithpoints{4} I read in the newspaper that America's GDP in 2014 was \$46,405.26. Could this number have been different? Yes/no and explain. \spc{4}
+
+\subquestionwithpoints{3} [Extra credit] Find $\se{aX + bY}$ where $X$ and $Y$ are r.v.'s and $a,b \in \reals$. Use the notation $\mu_X$ and $\mu_Y$ for the expectations of $X$ and $Y$ and $\sigsq_X$ and $\sigsq_Y$ for the variances of $X$ and $Y$ and $\sigma_{XY}$ for the $\cov{X}{Y}$.\spc{6}
+
+\subquestionwithpoints{3} [Extra credit] Consider $\Xoneton \iid \negbin{r}{p}$ Find $\se{\Xbar_n}$. \spc{6}
+
+\subquestionwithpoints{4} [Extra credit] Prove that the negative binomial r.v. is not memoryless. \spc{6}
+
+\eenum
+
+\end{document}
