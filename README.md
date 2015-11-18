@@ -6,7 +6,7 @@ This is the course homepage for Math 241 for the Fall semester 2015 at Queens Co
 
 My lectures can be listened to as clyp.it tracks and lecture notes are also scanned in as PDF files contributed by students and myself. Clyp has an iphone and android app as well.
 
-* Lecture 18 [(audio)](https://clyp.it/01zdogrk) [(Javier Mucia)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec18jm.pdf)
+* Lecture 18 [(audio)](https://clyp.it/01zdogrk) [(Javier Mucia)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec18jm.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec18kap.pdf) 
 * Lecture 17 [(audio)](https://clyp.it/c2kdzgd3) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec17ks.pdf) [(Anastassiya Neznanova)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec17an.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec17kap.pdf) 
 * Lecture 16 [(audio)](https://clyp.it/0r0najea) [(Qingyun Ni)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec16qn.pdf) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec16ks.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec16kap.pdf)
 * Lecture 15 [(audio)](https://clyp.it/ov3jogc4) [(Katherine Sandoval)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec15ks.pdf) [(Anastassiya Neznanova)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec15an.pdf) [(Prof)](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/lectures/lec15kap.pdf) 
