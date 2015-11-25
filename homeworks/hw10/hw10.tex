@@ -126,8 +126,6 @@ M_{T_n}(t) = \prod_{i=1}^n M_{X_i}(t)
 \intermediatesubproblem{Using the fact you proved in 1(r), use mgf's to show that $T = X_1 + \ldots + X_n$ where $T$ is the binomial r.v. from the previous problem and $X_1, \ldots, X_n \iid \bernoulli{p}$. }\spc{3}
 
 
-\hardsubproblem{Using the fact that $\var{X} = \expe{X^2} - \musq$, find the variance of $T$, a binomial r.v. using the mgf to find its second moment and assuming (by this point) that you know that $\mu = np$. }\spc{4}
-
 
 
 \hardsubproblem{Show that the sum of two independent r.v.'s $T_1 \sim \binomial{n_1}{p}$ and $T_2 \sim \binomial{n_2}{p}$ is a new r.v. which itself is a binomial and find its parameters. Does this make sense given what you proved in (e)? }\spc{4}
@@ -155,11 +153,11 @@ for the negative binomial r.v., show that negative binomial r.v.'s are indeed th
 M_X(t) = e^{\lambda (e^t - 1)}
 \eeqn
 
-Show that the sum of two independent r.v.'s $X_1 \sim \poisson{\lambda_1}$ and $X_2 \sim \poisson{\lambda_2}$ is itself a Poisson r.v. and find its parameter. }\spc{4}
+Show that the sum of two independent r.v.'s $X_1 \sim \poisson{\lambda_1}$ and $X_2 \sim \poisson{\lambda_2}$ is itself a Poisson r.v. and find its parameter. You don't even need to know what the Poisson is for this question.}\spc{4}
 
-\intermediatesubproblem{You have shown previously that the mgf for the r.v. $X \sim \binomial{n}{p}$ was $M_X(t) = \tothepow{1-p+pe^t}{n}$. In the previous problem you were given the mgf for the r.v. $X \sim \poisson{\lambda}$ was $M_X(t) = e^{\lambda (e^t - 1)}$. You know that the Poisson distribution is the limit of the Binomial distribution with $n \rightarrow \infty$ and the rate parameter pinned $\lambda = np$. Prove that the Poisson's mgf is this limit of the Binomial's mgf. Really not hard: just some algebraic manipulations.  }\spc{4}
+\hardsubproblem{You have shown previously that the mgf for the r.v. $X \sim \binomial{n}{p}$ was $M_X(t) = \tothepow{1-p+pe^t}{n}$. In the previous problem you were given the mgf for the r.v. $X \sim \poisson{\lambda}$ was $M_X(t) = e^{\lambda (e^t - 1)}$. Although we didn't cover it in class, the Poisson distribution is the limit of the Binomial distribution with $n \rightarrow \infty$ and the rate parameter pinned $\lambda = np$. Prove that the Poisson's mgf is this limit of the Binomial's mgf. Really not hard: just some algebraic manipulations. Let $p = \lambda / n$.}\spc{4}
 
-\intermediatesubproblem{We proved in class that if $Z \sim \stdnormnot$ then $M_Z(t) = e^{t^2/2}$. We also showed that if $X = \sigma Z + \mu$, then $X \sim \normnot{\mu}{\sigsq}$. Show that the mgf of $X$ is $M_X(t) = e^{\mu t + \sigsq t^2 /2}$ using what you learned in 1(t) and 1(u) and the class notes.  }\spc{4}
+\intermediatesubproblem{We proved in class that if $Z \sim \stdnormnot$ then $M_Z(t) = e^{t^2/2}$. We also showed that if $X = \sigma Z + \mu$, then $X \sim \normnot{\mu}{\sigsq}$. Show that the mgf of $X$ is $M_X(t) = e^{\mu t + \sigsq t^2 /2}$ using what you learned in quesiton 1 and the class notes.  }\spc{4}
 
 \hardsubproblem{Let $X_1, X_2, \ldots, X_n$ be a sequence of independent normal random variables where $X_1$ has mean $\mu_1$ and variance $\sigsq_1$ and $X_2$ has mean $\mu_2$ and variance $\sigsq_2$, etc. Show that $X_1 + X_2 + \ldots + X_n$ is normally distributed and find its parameters.  }\spc{6}
 
@@ -179,7 +177,7 @@ f(x) = \oneover{\pi(1+x^2)}
 
 The Cauchy distribution is a classic example of a pathological r.v. You'll see why. The standard Cauchy r.v. is actually the ratio of two independent standard normal r.v.'s: if $X \sim \stdnormnot$ and $Y \sim \stdnormnot$ then $X/Y$ has the PDF above.
 
-Prove that the mgf for a standard Cauchy r.v. does not exist. This is really not hard but it looks menacing. Do on a separate piece of paper. }\spc{2}
+Prove that the mgf for a standard Cauchy r.v. does not exist. This is really not hard but it looks menacing. Do on a separate piece of paper. }
 
 
 \end{enumerate}
@@ -203,11 +201,9 @@ Prove that the mgf for a standard Cauchy r.v. does not exist. This is really not
 C_n = \frac{\Xbar_n - \mu}{\frac{\sigma}{\sqrt{n}}}
 \eeqn
 
-If it's \qu{standardized,} what is the mean and standard error?  }\spc{2}
+If it's \qu{standardized,} what is the mean and standard error of $C_n$?  }\spc{2}
 
-\intermediatesubproblem{Why is the above quantity called a \qu{dimensionless number?}  }\spc{4}
-
-\easysubproblem{Show that $C_n = \frac{Z_1}{\sqrt{n}} + \frac{Z_2}{\sqrt{n}} + \ldots + \frac{Z_n}{\sqrt{n}}$.  }\spc{2}
+\easysubproblem{Show that $C_n = \frac{Z_1}{\sqrt{n}} + \frac{Z_2}{\sqrt{n}} + \ldots + \frac{Z_n}{\sqrt{n}}$.  }\spc{3}
 
 \intermediatesubproblem{Find the first five terms of $e^{tZ}$ using the Taylor Series. You can put $+~\ldots$ after the five terms. This is the same thing you did in 1(g).  }\spc{4}
 
@@ -291,8 +287,6 @@ plot(h)
 #last line placeholder
 \end{verbatim}
 
-~\spc{2}
-
 
 \easysubproblem{Now we're going to imagine $X_1, \ldots, X_n \iid \bernoulli{p = 0.5}$ and compute our friend:
 
@@ -360,7 +354,7 @@ C_n =  \frac{\Xbar - 50}{\frac{5}{\sqrt{n}}}
 
 We are going to look at the distribution of $C_n$ for different values of $n$. Remember $C = \limitn C_n$ should be distributed as $\stdnormnot$. Run the following code in \texttt{R} and print out (in black and white) the result (please be patient).
 
-This will look at the estimated PDF for $C_n$ for $n = 10, 100, 1000, 5000$. At what $n$ value does it appear that $C_n$ converged to a $\stdnormnot$? Pay attention to gaps of whitespace in these plots. They mean there's no support there! The standard normal has support everywhere. If it never converges, write \qu{never.} }
+This will look at the estimated PDF for $C_n$ for $n = 10, 100, 1000, 5000$. At what $n$ value does it appear that $C_n$ converged to a $\stdnormnot$? Pay attention to gaps of whitespace in these plots. They mean there's no support there! The standard normal has support everywhere. If it never converges, write \qu{never.} \\ }
 
 \begin{verbatim}
 #first line placeholder
@@ -385,7 +379,7 @@ C_n =  \frac{\Xbar - 7}{\frac{2.6458}{\sqrt{n}}}
 
 We are going to look at the distribution of $C_n$ for different values of $n$. Remember $C = \limitn C_n$ should be distributed as $\stdnormnot$. Run the following code in \texttt{R} and print out (in black and white) the result (please be patient).
 
-This will look at the estimated PDF for $C_n$ for $n = 10, 100, 1000, 5000, 10000, 50000$. At what $n$ value does it appear that $C_n$ converged to a $\stdnormnot$? Pay attention to gaps of whitespace in these plots. They mean there's no support there! The standard normal has support everywhere. If it never converges, write \qu{never.} }
+This will look at the estimated PDF for $C_n$ for $n = 10, 100, 1000, 5000, 10000, 50000$. At what $n$ value does it appear that $C_n$ converged to a $\stdnormnot$? Pay attention to gaps of whitespace in these plots. They mean there's no support there! The standard normal has support everywhere. If it never converges, write \qu{never.} } \pagebreak
 
 \begin{verbatim}
 #first line placeholder
@@ -400,7 +394,7 @@ for (n in c(10, 100, 1000, 5000, 10000, 50000)){
     main = paste("PDF estimate of Cn for n =", n), col = "blue")
 }
 #last line placeholder
-\end{verbatim}~\spc{2}
+\end{verbatim}~\spc{1}
 
 
 \easysubproblem{Now we're going to imagine $X_1, \ldots, X_n \iid \exponential{\lambda = 7}$. Since we know $\mu = 1 / \lambda = 0.1429$ and $\sigma = 1 / \lambda =  0.1429$,
@@ -426,7 +420,7 @@ for (n in c(10, 100, 1000, 5000)){
     main = paste("PDF estimate of Cn for n =", n), col = "blue")
 }
 #last line placeholder
-\end{verbatim}~\spc{2}
+\end{verbatim}
 
 \easysubproblem{Now we're going to imagine $X_1, \ldots, X_n \iid \normnot{\mu = 3}{\sigsq = 6^2}$. Since we know $\mu = 3$ and $\sigma = 6$,
 
@@ -451,9 +445,9 @@ for (n in c(10, 100, 1000, 5000)){
     main = paste("PDF estimate of Cn for n =", n), col = "blue")
 }
 #last line placeholder
-\end{verbatim}~\spc{2}
+\end{verbatim}~\spc{1}
 
-\intermediatesubproblem{Why did this converge immediately? See question 2(m) for the answer. }\spc{3}
+\intermediatesubproblem{Why did this converge immediately? See question 2(m) for the answer. }\spc{2}
 
 \easysubproblem{Now we're going to get more elaborate. Imagine the following PDF: 
 
@@ -493,7 +487,7 @@ for (n in c(2, 5, 10, 50, 100, 1000)){
     main = paste("PDF estimate of Cn for n =", n), col = "blue")
 }
 #last line placeholder
-\end{verbatim}~\spc{2}
+\end{verbatim}
 
 \easysubproblem{Let's sum up what we've learned in this problem. The central limit states as $n \rightarrow \infty$ (i.e. it gets big) then $C_n$ becomes a standard normal. Does it become a standard normal at different rates depending on the distribution of the r.v. being sampled? Yes/no is fine.} \spc{2}
 
@@ -515,13 +509,6 @@ for (n in c(2, 5, 10, 50, 100, 1000)){
 T_n \sim \normnot{n\mu}{\squared{\sqrt{n}\sigma}}
 \eeqn }\spc{1.5}
 
-\easysubproblem{Assume $n$ is large enough for the CLT to kick in, show that:
-
-\beqn
-\frac{T_n - n\mu}{\sqrt{n}\sigma} \sim \stdnormnot
-\eeqn 
-
-which follows from the last question instantaneously.}\spc{2}
 
 \easysubproblem{Let $X_1, \ldots, X_n \iid \bernoulli{p}$ and let $\Phat := \Xbar$. Assume $n$ is large enough for the CLT to kick in, show that:
 
