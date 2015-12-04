@@ -32,8 +32,7 @@ My lectures can be listened to as clyp.it tracks and lecture notes are also scan
 
 ## Homeworks
 
-<!--
-* [Homework 11](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw11/hw11.pdf?raw=true) (due 5/07/15)-->
+* [Homework 11](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw11/hw11.pdf?raw=true) (due 12/14/15)
 * [Homework 10](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw10/hw10.pdf?raw=true) (due 12/4/15)
 * [Homework 9](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw09/hw09.pdf?raw=true) (due 11/23/15)
 * [Homework 8](https://github.com/kapelner/QC_Math_241_Fall_2015/blob/master/homeworks/hw08/hw08.pdf?raw=true) (due 11/6/15)
