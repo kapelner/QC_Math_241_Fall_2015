@@ -1,0 +1,276 @@
+\documentclass[12pt]{article}
+
+\usepackage{eurosym}
+\include{preamble}
+
+\title{Math 241 Fall 2015 \\ Final Examination}
+\author{Professor Adam Kapelner}
+
+\date{December 17, 2015}
+
+\begin{document}
+\maketitle
+
+\noindent Full Name \line(1,0){270} ~~~ Section (A, B or C)~ \line(1,0){30}
+
+\thispagestyle{empty}
+
+\section*{Code of Academic Integrity}
+
+\footnotesize
+Since the college is an academic community, its fundamental purpose is the pursuit of knowledge. Essential to the success of this educational mission is a commitment to the principles of academic integrity. Every member of the college community is responsible for upholding the highest standards of honesty at all times. Students, as members of the community, are also responsible for adhering to the principles and spirit of the following Code of Academic Integrity.
+
+Activities that have the effect or intention of interfering with education, pursuit of knowledge, or fair evaluation of a student's performance are prohibited. Examples of such activities include but are not limited to the following definitions:
+
+\paragraph{Cheating} Using or attempting to use unauthorized assistance, material, or study aids in examinations or other academic work or preventing, or attempting to prevent, another from using authorized assistance, material, or study aids. Example: using a cheat sheet in a quiz or exam, altering a graded exam and resubmitting it for a better grade, etc.
+\\
+
+\noindent I acknowledge and agree to uphold this Code of Academic Integrity. \\
+
+\begin{center}
+\line(1,0){250} ~~~ \line(1,0){100}\\
+~~~~~~~~~~~~~~~~~~~~~signature~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ date
+\end{center}
+
+\normalsize
+
+\section*{Instructions}
+
+This exam is 120 minutes and closed-book. You are allowed three pages (front and back) of a \qu{cheat sheet.} You may use a graphing calculator of your choice but \emph{no cell phones}. Please read the questions carefully. If the question reads \qu{compute,} this means the solution will be a number otherwise you can leave the answer in choose, permutation, factorial, summation or any other notation which could be resolved to a number with a computer. I advise you to skip problems marked \qu{[Extra Credit]} until you have finished the other questions on the exam, then loop back and plug in all the holes. I also advise you to use pencil. The exam is 100 points total plus extra credit. Partial credit will be granted for incomplete answers on most of the questions. \fbox{Box} in your final answers. Good luck!
+
+\pagebreak
+
+\problem Imagine a bag with 171 marbles each unique. 
+
+\begin{center}
+\includegraphics[width=2in]{marbles.jpg}
+\end{center}
+\benum
+
+\subquestionwithpoints{3} Imagine you select 19 balls with replacement. How many ways are there to select balls if their order matters and selection order matters? \spc{1} 
+
+\subquestionwithpoints{3} Imagine you select 19 balls with replacement. How many ways are there to select balls if their order does not matter? \spc{1} 
+
+\subquestionwithpoints{3} Imagine you select 19 balls without replacement. How many ways are there to select balls if their order matters? \spc{1} 
+
+\subquestionwithpoints{3} Imagine you select 19 balls without replacement. How many ways are there to select balls if their order does not matter? \spc{1}
+
+%\subquestionwithpoints{2} Although they're all different, 13 of them are red and the red ones are special. If you pull out 10 marbles, how many red ones are you able to get? \spc{1}
+
+%\subquestionwithpoints{3} Although they're all different, 29 of them are red and the red ones are special. If you pull out 150 marbles without replacement, how many red ones are you able to get? \spc{1}
+
+%\subquestionwithpoints{2} What is the probability of getting 11 red ones on a draw of 150 without replacement? No need to compute explicitly. \spc{1}
+
+%\subquestionwithpoints{3} 23 of them are red and the red ones are special. Imagine you have already drawn 10 red marbles on a draw of 10 without replacement. What is the chance you now get another 10 marbles in a draw of 140 without replacement? No need to compute explicitly. \spc{3}
+
+%\subquestionwithpoints{2} Imagine you have already drawn 10 red marbles on a draw of 10 without replacement. What is the chance you now get another 10 marbles in a remaining draw of 140 \textit{with} replacement? No need to compute explicitly. \spc{1}
+
+
+
+\eenum
+
+\problem Some theoretical exercises are below.
+
+\benum
+
+\subquestionwithpoints{2} Consider the following r.v.,
+
+\beqn
+X \sim \begin{cases}
+2 \withprob 1/7 \\
+4 \withprob 4/7 \\
+-3 \withprob 2/7 \\
+\end{cases}
+\eeqn
+
+Provide a set $\Omega$ for the domain of this r.v. \spc{1}
+
+\subquestionwithpoints{3} For the r.v. above, describe or illustrate (any way you can) of a physical device that will create the r.v. Be sure to use $\Omega$ in your illustration from (a).\spc{5}
+
+\subquestionwithpoints{2} Could it be possible that $\abss{\support{X}} < \abss{\Omega}$? Write \qu{yes} or \qu{no} only. \spc{1}
+
+\eenum
+
+\problem Some more theoretical exercises are below.
+
+\benum
+
+\subquestionwithpoints{4} Consider $X \sim \uniformdiscrete{a_1, a_2, a_3, a_4}$ i.e. $\abss{\support{X}} = 4$. Find the MGF of $X$ denoted by $M_X(t)$. \spc{2}
+
+
+\subquestionwithpoints{7} Consider a large number of $X_1, \ldots, X_n \iid \uniformdiscrete{a_1, a_2, a_3, a_4}$. Consider $X_1 + \ldots + X_n$. What is its approximate distribution? Answer in as much detail as you can provide (partial credit will be given). Use sum notation for compactness.  \spc{6}
+
+\subquestionwithpoints{7} Consider $Y_1$ being distributed as 5 or 10 with equal probability and $Y_2 \sim \bernoulli{\half}$ where $Y_1$ and $Y_2$ are independent. Show that $Y_1 + Y_2$ is a uniform discrete r.v. with $\abss{\support{X}} = 4$ using MGF's. \spc{8}
+
+
+
+\subquestionwithpoints{3} [E.C.] Give examples of $a_1, a_2, a_3, a_4$ above which would most likely break the approximation from part (d) for a modest size $n$. \spc{2}
+
+\subquestionwithpoints{3} [E.C.] Find $\expe{\tothepow{\frac{X-\mu}{\sigma}}{13}}$ where $\mu$ and $\sigma$ are the mean and standard error of $X$ respectively. \spc{1}
+
+\eenum
+
+
+
+
+\problem We will investigate more about aliens and UFOs by looking at data from the \href{http://www.nuforc.org/webreports/ndxevent.html}{National UFO Reportion Center Online Database}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=2in]{ufo.jpg}
+\end{figure}
+
+Below is the number of events in each month in 2014 and represents the number of \qu{UFO sightings} across America, a country with 319 million people. Assume that each sighting is unique --- that is each person either makes a sighting for a given or does not and there are no duplicates. That is, a person cannot make more than one sighting per 12-month period.
+
+\begin{table}[htp]
+\small
+\centering
+\begin{tabular}{c|c}
+Month & Number \\ \hline
+12/2014 &	521 \\
+11/2014	&543 \\
+10/2014	&786 \\
+09/2014	&829 \\
+08/2014	&922 \\
+07/2014	&1096 \\
+06/2014	&776 \\
+05/2014	&652 \\
+04/2014	&666 \\
+03/2014	&517 \\
+02/2014	&554 \\
+01/2014	&715 \\
+\end{tabular}
+\end{table}
+
+\benum
+
+\subquestionwithpoints{2} We are interested in the true proportion of people who sight a UFO per year (not per month). Provide an estimate of this proportion below. Round to the nearest two digits. \spc{0.5}
+
+\subquestionwithpoints{6} Provide a 99.7\% confidence interval for the true proportion of people worldwide who see a UFO yearly. \spc{5}
+
+\subquestionwithpoints{3} Give two possible concerns as to why the confidence interval you produced in (b) may not be valid.
+
+\begin{enumerate}
+\item [1.] ~\\~\\
+\item [2.]
+\end{enumerate}
+
+\subquestionwithpoints{4} Regardless of the issues in (c), provide four possibe interpretations of the CI from (b).
+
+\begin{enumerate}
+\item [1.] ~\\~\\~\\
+\item [2.]~\\~\\~\\
+\item [3.]~\\~\\~\\
+\item [4.]~\\~\\~\\
+\end{enumerate}
+
+\subquestionwithpoints{3} Let's assume the point estimate of (a) is equal to the real population proportion (assume $p = \phat$ for the remainder of the problem). Assume 2015 is the same as 2014 with regards to UFO sightings (and the population of America remained the same to the nearest million people). What is the probability of less than 100,000 sightings in 2015? No need to compute exactly. Sum notation allowed.\spc{2}
+
+\subquestionwithpoints{2} It is possible some states have more UFO sightings than other states. Hawaii had 67 sightings in 2014 for a population of 1.42 million people. Here are some examples:
+
+\begin{table}[htp]
+\centering
+\footnotesize
+\begin{tabular}{lllll}
+Timestamp & City & Shape & Duration & Description \\ \hline
+1/15/14 03:30&	Paia	HI&	Sphere	&2 min	&  I Saw a golden sphere \\
+&&&&shaped object hovering over the water \\
+&&&&on the North Shore at 3:30am.	 \\
+1/15/14&	Kealia	HI	&Fireball	&20 min&	Fireball w- chinese laturns and parade \\
+&&&& of triangles.	 \\
+1/14/14 20:50&	Waimanalo	HI	&Fireball&	5 sec&	I saw an orange fireball with flames \\
+&&&& trailing as it shot diagonally across \\
+&&&& the sky and disappeared behind the\\
+&&&& nearby mountain range.	 \\ 
+%1/10/14 22:58&	Kaneohe	HI&	Fireball&	90 sec&	A silent red ball of light traveled \\
+%&&&&off the pacific ocean from the east \\
+%&&&&to the south below the clouds for \\
+%&&&&about 90 seconds.	 \\
+\end{tabular}
+\end{table}
+
+Find the sample proportion for seeing a UFO sighting in a year in Hawaii. Round to two digits. \spc{2}
+
+\subquestionwithpoints{7} Test whether this proportion is different than the proportion in America overall.
+
+\begin{enumerate}
+\item [$H_0$:] ~\\
+\item [$H_a$:] ~\\
+\item [$\alpha =$] ~~~~~~~~ $\Rightarrow z_{\alpha/2} = $
+\end{enumerate}~ \spc{2.5}
+
+\subquestionwithpoints{2} Based on your result in (g), is the event of being in Hawaii and the event of seeing a UFO over the course of a year independent or dependent? Explain using the definition of dependence and independence. \spc{2}
+
+\eenum
+
+
+\problem We return to our discussion of Chevalier de Mere and his compulsive dice gambiling.
+
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=1.31in]{chevalier.jpg}~\includegraphics[width=2in]{dice.jpg}
+\end{figure}
+
+\benum
+
+\subquestionwithpoints{3} Recall the dice game he played: you win if you get at least one 6-6 in 24 rolls of two dice. What is the probability of winning? Compute to four decimal places. \spc{3}
+
+\subquestionwithpoints{6} Chevalier de Mere most likely thought the probability of winning was 0.5 (not your answer from the previous question). Assuming Chevalier de Mere went easy on the wine and cigarettes and kept perfect records of wins and losses of everyone playing this game, how many games (denoted $n$) did he have to watch to be sure (at the 5\% level) that the probability of winning was less than 50\%. You can leave as an algebraic equation of $n$; you do not need to solve.\spc{7}
+
+
+\eenum
+
+
+\problem We learn about a bank alert system here for detecting fraudulent charges on a credit card.
+\begin{figure}[htp]
+\centering
+\includegraphics[width=3in]{credit.jpg}
+\end{figure}
+
+\benum
+
+\subquestionwithpoints{2} Assume each charge is legitimate from the start. What are the null and alternative hypotheses for this situation with credit card charges? No credit given for the general definition. Answer in English. \spc{1.5}
+
+%\subquestionwithpoints{2} Describe a Type I error for this situation with credit card charges. No credit given for the general definition. \spc{2}
+
+\subquestionwithpoints{3} Describe a Type II error for this situation with credit card charges. No credit given for the general definition. Answer in English. \spc{2}
+
+\subquestionwithpoints{3} Assume the Type I error rate is $\alpha$ with cost $C_I \sim \normnot{\$100}{\$50^2}$ and the Type II error rate is $\beta$ with cost $C_{II} \sim \normnot{\$500}{\$38^2}$. What is the expected cost to the bank for a single credit card transaction? \spc{3}
+
+%\subquestionwithpoints{3} Assuming the bank cannot change the two costs ($C_I$ and $C_{II}$). Give a strategy for the bank to minimize the expected cost in (d) without any chance of inadvertently increasing it. \spc{1}
+
+
+\eenum
+
+
+
+\problem Some questions about continuous r.v.'s
+
+\benum
+
+
+\subquestionwithpoints{2} The chi-squared distribution (denoted $\chi^2_k$) has a PDF given by
+
+\beqn
+\chi^2_k := f(x) = \frac{1}{2^{\frac{k}{2}}\Gamma\left(\frac{k}{2}\right)}\; x^{\frac{k}{2}-1} e^{-\frac{x}{2}}
+\eeqn 
+
+and its support is all non-negative numbers. Note that the gamma function (denoted $\Gamma$) is evaluated to a number using a computer.  \\
+
+What are the parameter(s) of the $\chi^2_k$ model?\spc{2}
+
+\subquestionwithpoints{4} Write an integral expression for $\expe{X}$ where $X \sim  \chi^2_k$. \spc{4}
+
+\subquestionwithpoints{4} Write an integral expression for $F(x)$ where $X \sim  \chi^2_k$. \spc{4}
+
+\subquestionwithpoints{3} Consider $T \sim \exponential{\lambda}$ which represents the time spent waiting for the Q64 in minutes. What is the probability of waiting more than 10 minutes? \spc{3}
+
+\subquestionwithpoints{4} A stopwatch beeps every minute. After each beep, which r.v. models the waiting time in minutes for the Q64? Assume of course the bus hasn't come by the beep.  \spc{2}
+
+%\subquestionwithpoints{2} A stopwatch beeps every 1$\mu$s (that's one-millionth of a second). After each beep, which r.v. models the waiting time in minutes for the Q64? Assume of course the bus hasn't come by the beep.  \spc{2}
+
+\eenum
+
+\end{document}
+
